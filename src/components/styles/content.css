@@ -1,0 +1,13 @@
+.section{
+    padding: 1% 5%;
+    /* border: 2px solid #ededed; */
+}
+
+.text{
+    width: 80%;
+    padding: 1rem;
+    border-radius: 5px;
+    color:aquamarine;
+    text-align: justify;
+    box-shadow: 2px 2px 15px 10px #efefef;
+}
