@@ -2,23 +2,23 @@
 //import React from 'react';
 import "./styles/content.css";
 
-import Main from './Main';
+import Home from './Home';
 import About from "./About";
 
 const Content = ({ activeTab }) => {
   let content;
   switch (activeTab) {
     case 'home':
-      content = <Main/>;
+      content = <Home/>;
       break;
     case 'about':
       content = <About/>;
       break;
     case 'contact':
-      content = <div>To jest strona kontaktowa.</div>;
+      content = <div className="text">To jest strona kontaktowa.</div>;
       break;
     default:
-      content = <div>Strona nie znaleziona.</div>;
+      content = <div className="text">Dowiesz się z niej jak postępować aby napisac prostą stronkę w React.</div>;
   }
 
   return (

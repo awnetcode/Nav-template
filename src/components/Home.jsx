@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 
-const Main = () => {
+const Home = () => {
   return (
     <div className="text">
         <p className="">
@@ -15,4 +15,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Home;
