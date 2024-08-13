@@ -6,7 +6,6 @@
 
 #container{
   width: 100%;
-  border: 1px solid #25c525;
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   grid-template-areas: 
@@ -25,14 +24,16 @@ header{
 nav{
   width: 200px;
   grid-area: navbar;
-  border: 1px solid #25c525;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
 .content{
+  width: 90%;
   display: grid;
   grid-area: content;
+  align-self: center;
+  justify-self: center;
 }
 
