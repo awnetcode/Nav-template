@@ -3,11 +3,19 @@
 import "./styles/content.css";
 
 import Home from './Home';
-import About from "./About";
+import About from "./About"
+import Tools from "./Tools";
+import Create from "./Create";
 
 const Content = ({ activeTab }) => {
   let content;
   switch (activeTab) {
+    case 'tools':
+      content = <Tools/>;
+      break;
+    case 'create':
+      content = <Create/>;
+      break;
     case 'home':
       content = <Home/>;
       break;
@@ -22,7 +30,7 @@ const Content = ({ activeTab }) => {
   }
 
   return (
-    <main>
+    <main className="content">
       {content}
     </main>
   );
