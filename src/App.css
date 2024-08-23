@@ -1,11 +1,18 @@
 #root {
   width: 100%;
-  margin: 0 auto;
-  padding: 2rem;
+  height: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
 }
 
 #container{
   width: 100%;
+  height: 100%;
+  padding: 1rem;
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   grid-template-areas: 
@@ -17,11 +24,11 @@
   "navbar footer footer footer";
 }
 
-header{
+.page-header{
   grid-area: header;
 }
 
-nav{
+.left-nav-panel{
   width: 200px;
   grid-area: navbar;
   display: flex;
@@ -30,11 +37,4 @@ nav{
   row-gap: 1rem;
 }
 
-.content{
-  width: 90%;
-  display: grid;
-  grid-area: content;
-  align-self: center;
-  justify-self: center;
-}
 

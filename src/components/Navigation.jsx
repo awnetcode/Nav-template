@@ -2,7 +2,7 @@
 
 const Navigation = ({ setActiveTab }) => {
   return (
-    <nav>
+    <nav className="left-nav-panel">
       <button onClick={() => setActiveTab('tools')}>Narzędzia</button>
       <button onClick={() => setActiveTab('create')}>Start projektu</button>
       <button onClick={() => setActiveTab('git')}>Start Git-a</button>

@@ -1,13 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 
 // eslint-disable-next-line no-unused-vars
-import React from "react";
+
 
 const About = () =>{
-
     return (
         <div className="text">
-        <p>Robi się taką stronę w REACT w ten sposób, że: </p>
+        <h3>Robi się taką stronę w REACT w ten sposób, że: </h3>
           <ol className="steps">
           <li className="step">Tworzy się komponenty. W tym przypadku Header Navigation i Content.</li>
           <li className="step">Komponent Navigation zawiera trzy przyciski, z atrybutem onClick (event handler)</li>
