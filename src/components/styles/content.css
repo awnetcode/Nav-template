@@ -5,12 +5,13 @@
 
 .text{
     width: 100%;
-    padding: 0 2rem;
+    padding: 1rem 2rem;
     border-radius: 5px;
     color: #25c525;
     box-shadow: 2px 2px 15px 5px #efefef;
     display: flex;
     flex-direction: column;
+    border: 1 px solid red
 }
 
 .step{
@@ -30,4 +31,5 @@
     background: #000000;
     padding: 1rem;
     border-radius: 3px;
+    text-align: left;
 }

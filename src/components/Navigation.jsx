@@ -5,11 +5,11 @@ const Navigation = ({ setActiveTab }) => {
     <nav>
       <button onClick={() => setActiveTab('tools')}>Narzędzia</button>
       <button onClick={() => setActiveTab('create')}>Start projektu</button>
-      <button onClick={() => setActiveTab('home')}>Start Git-a</button>
-      <button onClick={() => setActiveTab('home')}>Generowanie komponentów</button>
+      <button onClick={() => setActiveTab('git')}>Start Git-a</button>
+      <button onClick={() => setActiveTab('generate')}>Generowanie komponentów</button>
       <button onClick={() => setActiveTab('about')}>Funkcjonalność nawigacji</button>
-      <button onClick={() => setActiveTab('contact')}>Zapis repozytorim</button>
-      <button onClick={() => setActiveTab('contact')}>Generowanie plików strony</button>
+      <button onClick={() => setActiveTab('push')}>Zapis repozytorim</button>
+      <button onClick={() => setActiveTab('build')}>Generowanie plików strony</button>
     </nav>
   );
 };

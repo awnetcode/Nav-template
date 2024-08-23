@@ -9,12 +9,12 @@
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   grid-template-areas: 
-  "header header header header"
+  "navbar header header header"
   "navbar content content content"
   "navbar content content content"
   "navbar content content content"
   "navbar content content content"
-  "footer footer footer footer";
+  "navbar footer footer footer";
 }
 
 header{
@@ -26,7 +26,8 @@ nav{
   grid-area: navbar;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  row-gap: 1rem;
 }
 
 .content{
